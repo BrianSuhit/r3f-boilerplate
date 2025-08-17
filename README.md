@@ -1,9 +1,5 @@
 # R3F Boilerplate
 
----
-
-## 🇪🇸 Español
-
 Este es mi punto de partida personal para todos los nuevos proyectos WebGL que utilizan el ecosistema de React Three Fiber. Está configurado con Vite para una experiencia de desarrollo rápida y moderna.
 
 ### Características Incluidas
@@ -28,6 +24,7 @@ Este es mi punto de partida personal para todos los nuevos proyectos WebGL que u
 ### Cómo Empezar
 
 1.  Clona o descarga este repositorio.
+
 2.  Instala las dependencias:
     ```bash
     npm install
@@ -36,3 +33,10 @@ Este es mi punto de partida personal para todos los nuevos proyectos WebGL que u
     ```bash
     npm run dev
     ```
+
+
+<div align="center">
+
+![Mi Boilerplate](boilerplate-screenshot.png)
+
+</div>
