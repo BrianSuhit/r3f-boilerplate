@@ -1,12 +1,38 @@
-# React + Vite
+# R3F Boilerplate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🇪🇸 Español
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este es mi punto de partida personal para todos los nuevos proyectos WebGL que utilizan el ecosistema de React Three Fiber. Está configurado con Vite para una experiencia de desarrollo rápida y moderna.
 
-## Expanding the ESLint configuration
+### Características Incluidas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   **Framework:** React 18
+-   **Empaquetador:** Vite
+-   **Motor 3D:** Three.js
+-   **Renderizador:** React Three Fiber (`@react-three/fiber`)
+-   **Utilidades:** Drei (`@react-three/drei`)
+-   **Monitor de Rendimiento:** `r3f-perf`
+
+### Dependencias Principales
+
+| Paquete                 | Versión   |
+| ----------------------- | --------- |
+| `react`                 | `^18.3.1` |
+| `three`                 | `^0.164.1`|
+| `@react-three/fiber`    | `^8.16.6` |
+| `@react-three/drei`     | `^9.105.6`|
+| `r3f-perf`              | `^7.2.1`  |
+
+### Cómo Empezar
+
+1.  Clona o descarga este repositorio.
+2.  Instala las dependencias:
+    ```bash
+    npm install
+    ```
+3.  Ejecuta el servidor de desarrollo:
+    ```bash
+    npm run dev
+    ```
